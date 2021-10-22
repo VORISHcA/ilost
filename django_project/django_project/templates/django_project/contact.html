@@ -9,10 +9,10 @@
             {% for info in info_contact %}
 			<div class="location-1">
 				<i class="fa fa-map-marker fa-5x"></i>
-				<h4>{{ info.name }}</h4>
+				<h4>{{ info.location }}</h4>
 				<div class="contacts">
 					<h5>Телефон</h5>
-					<p>{{ info.mobil }}</p>
+					<p>{{ info.mobile }}</p>
 				</div>
 				<div class="contacts">
 					<h5>Email</h5>
@@ -20,7 +20,7 @@
 				</div>
 				<div class="contacts">
 					<h5>Адрес</h5>
-					<p>{{ info.adress }}</p>
+					<p>{{ info.address }}</p>
 				</div>
 			</div>
             {% endfor %}
