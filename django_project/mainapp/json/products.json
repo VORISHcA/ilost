@@ -1,0 +1,79 @@
+[
+{
+
+      "category": 1,
+      "name": "Стул3",
+      "image": "products_images/product-21.jpg",
+      "short_desc": "23",
+      "description": "215ыувепывп",
+      "price": "231.00",
+      "quatity": 3
+
+  },
+  {
+
+      "category": 2,
+      "name": "Офис1",
+      "image": "products_images/product-1.jpg",
+      "short_desc": "уцуцу",
+      "description": "23542345",
+      "price": "323.00",
+      "quatity": 3234
+
+  },
+  {
+
+      "category": 2,
+      "name": "Офис2",
+      "image": "products_images/product-41.jpg",
+      "short_desc": "цуц",
+      "description": "ййцуйцуйцу",
+      "price": "223.00",
+      "quatity": 32
+
+  },
+  {
+
+      "category": 3,
+      "name": "Модерн1",
+      "image": "products_images/product-31.jpg",
+      "short_desc": "43",
+      "description": "45335345",
+      "price": "4543.00",
+      "quatity": 4
+
+  },
+  {
+
+      "category": 3,
+      "name": "Модерн2",
+      "image": "products_images/product-51.jpg",
+      "short_desc": "234",
+      "description": "324234",
+      "price": "3423.00",
+      "quatity": 30
+
+  },
+  {
+
+      "category": 2,
+      "name": "fdfdfdf",
+      "image": "products_images/product-21_DTmprim.jpg",
+      "short_desc": "rtert",
+      "description": "ertert",
+      "price": "54.00",
+      "quatity": 45
+
+  },
+  {
+
+      "category": 3,
+      "name": "rtfdg",
+      "image": "products_images/product-41_TFRe88V.jpg",
+      "short_desc": "dfgdfg",
+      "description": "dfgdfg",
+      "price": "45.00",
+      "quatity": 45
+
+  }
+]
