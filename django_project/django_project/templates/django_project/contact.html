@@ -1,0 +1,30 @@
+{% extends 'django_project/base.html' %}
+{% load static %}
+{% block content %}
+		<div class="hero">
+			{% include 'django_project/includes/menu.html' %}
+            {% include 'django_project/includes/inc_menu.html' %}
+			<h1>наши контакты</h1>
+		</div>
+		<div class="location">
+            {% for info in info_contact %}
+			<div class="location-1">
+				<i class="fa fa-map-marker fa-5x"></i>
+				<h4>{{ info.location }}</h4>
+				<div class="contacts">
+					<h5>Телефон</h5>
+					<p>{{ info.mobile }}</p>
+				</div>
+				<div class="contacts">
+					<h5>Email</h5>
+					<p>{{ info.email }}</p>
+				</div>
+				<div class="contacts">
+					<h5>Адрес</h5>
+					<p>{{ info.address }}</p>
+				</div>
+			</div>
+            {% endfor %}
+		</div>
+
+{% endblock %}
