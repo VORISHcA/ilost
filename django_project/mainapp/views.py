@@ -1,5 +1,5 @@
 from django.shortcuts import render
-
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from mainapp.models import ProductCategory, Product
 from basketapp.models import Basket
 from django.shortcuts import get_object_or_404
@@ -69,28 +69,4 @@ def products(request, pk=None):
 
         return render(request, 'mainapp/products_list.html', content)
 
-    hot_product = get_hot_product()
-    same_products = get_same_products(hot_product)
 
-    content = {
-        'title': title,
-        'links_menu': links_menu,
-        'hot_product': hot_product,
-        'same_products': same_products,
-        'basket': basket,
-    }
-
-    return render(request, 'mainapp/products.html', content)
-
-
-def product(request, pk):
-    title = 'продукты'
-
-    content = {
-        'title': title,
-        'links_menu': ProductCategory.objects.all(),
-        'product': get_object_or_404(Product, pk=pk),
-        'basket': get_basket(request.user),
-    }
-
-    return render(request, 'mainapp/product.html', content)

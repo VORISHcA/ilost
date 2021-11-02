@@ -25,3 +25,6 @@ def contacts(request):
         'info_contact': info_contact,
     }
     return render(request, 'django_project/contact.html', context)
+
+
+
